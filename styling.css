@@ -5,12 +5,44 @@
 }
 
 .navbar{
-    height: 60px;
+    height: 3.75rem; /* 60px */
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
-/* .logo{
-    background-image: url("pictures&logos\amazon_logo.png");
-    height: 50px;
-} */
+.nav-logo{
+    height: 3.125rem; /* 50px */
+    width: 7rem;      /* 112px */
+}
+.logo{
+    background-image: url("./pictures&logos/amazon_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3.125rem; /* 50px */
+    width: 7rem;      /* 112px */
+}
+.border{
+    border: 0.09375rem solid transparent; /* 1.5px */
+}
+.border:hover{
+    border: 0.09375rem solid white;       /* 1.5px */
+}
+
+/* box2 */
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.addFst{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 0.9375rem; /* 15px */
+}
+.addSec{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 0.1875rem; /* 3px */
+}
