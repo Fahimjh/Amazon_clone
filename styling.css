@@ -5,44 +5,91 @@
 }
 
 .navbar{
-    height: 3.75rem; /* 60px */
+    height: 4.5rem; 
     background-color: #0f1111;
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo{
-    height: 3.125rem; /* 50px */
-    width: 7rem;      /* 112px */
+    height: 3.5rem; 
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .logo{
     background-image: url("./pictures&logos/amazon_logo.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 3.125rem; /* 50px */
-    width: 7rem;      /* 112px */
+    height: 3.2rem;
+    width: 7.5rem; 
 }
 .border{
-    border: 0.09375rem solid transparent; /* 1.5px */
+    border: 0.08375rem solid transparent;
 }
 .border:hover{
-    border: 0.09375rem solid white;       /* 1.5px */
+    border: 0.08375rem solid white;     
+}
+
+.nav-address {
+    height: 3.5rem;      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0.5rem;   
+    box-sizing: border-box;
 }
 
 /* box2 */
-
 .add-icon{
     display: flex;
     align-items: center;
 }
 .addFst{
     color: #cccccc;
-    font-size: 0.85rem;
-    margin-left: 0.9375rem; /* 15px */
+    font-size: 1rem;     
+    margin-left: 1.2rem; 
 }
 .addSec{
     color: #ffffff;
+    font-size: 1.2rem;   
+    margin-left: 0.3rem; 
+}
+
+/* box3 */
+.nav-search{
+    display: flex;
+    width: 50rem;
+    height: 2.5rem;
+    background-color: pink;
+    border-radius: 0.25rem;
+    justify-content: space-evenly;
+}
+.search-select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    width: 3rem;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 100%;
     font-size: 1rem;
-    margin-left: 0.1875rem; /* 3px */
+    border: none;
+}
+.search-icon{
+    width: 3.5rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    color: #0f1111;
 }
