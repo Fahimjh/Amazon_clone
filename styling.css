@@ -27,6 +27,7 @@
     height: 3.2rem;
     width: 7.5rem; 
 }
+/* borders */
 .border{
     border: 0.08375rem solid transparent;
 }
@@ -67,6 +68,11 @@
     background-color: pink;
     border-radius: 0.25rem;
     justify-content: space-evenly;
+    border: 0.13rem solid transparent; 
+    box-sizing: border-box; 
+}
+.nav-search:focus-within{
+     border: 0.13rem solid orange;     
 }
 .search-select{
     background-color: #f3f3f3;
@@ -81,6 +87,12 @@
     font-size: 1rem;
     border: none;
 }
+.search-input:focus,
+.search-select:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
 .search-icon{
     width: 3.5rem;
     border: none;
@@ -92,4 +104,11 @@
     border-top-right-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
     color: #0f1111;
+}
+.cart-icon{
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
 }
