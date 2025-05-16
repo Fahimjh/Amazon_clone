@@ -105,10 +105,36 @@
     border-bottom-right-radius: 0.25rem;
     color: #0f1111;
 }
-.cart-icon{
-    width: 4rem;
+.cart {
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 2.5rem;
+    padding: 0 0.7rem;      /* Keeps a nice clickable area */
+    box-sizing: border-box;
+    height: auto;           /* Let the content define the height */
+}
+
+.cart-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 2.5rem;      /* Keep icon and text large */
+    width: auto;            /* Remove fixed width */
+}
+
+/* 2ndNav */
+.navbar2nd{
+    height: 2.8rem; 
+    background-color: #222f3d;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.element{
+    height: 2rem;                
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    gap: 0.3rem;
 }
